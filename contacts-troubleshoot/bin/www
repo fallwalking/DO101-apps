@@ -4,9 +4,9 @@
  * Module dependencies.
  */
 
-import app, { set } from '../app';
+var app = require('../app');
 var debug = require('debug')('contacts:server');
-import { createServer } from 'http';
+var http = require('http');
 
 /**
  * Get port from environment and store in Express.
